@@ -1,6 +1,5 @@
 # advent-of-code
-My solutions to Advent of Code 
+My solutions to advent-of-code 
 ## Advent of Code 2020
-<ul>  
-<li>Done in **C** Programming Language</li>  
-</ul>
+
+ - Done in **C** Programming Language
