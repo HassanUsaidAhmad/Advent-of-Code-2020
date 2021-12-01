@@ -9,9 +9,7 @@ fs.readFile("input.txt", (err, data) => {
     let counter = 0;
 
     for (let i = 0; i < numInputData.length; i++) {
-        if (numInputData[i + 1] > numInputData[i]) {
-            counter++;
-        }
+        if (numInputData[i + 1] > numInputData[i]) counter++;
     }
     console.log(counter);
 });
