@@ -5,16 +5,12 @@ function mostFreq(arr) {
     const oneNum = [];
 
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === "0") {
-            zeroNum.push(arr[i]);
-        } else if (arr[i] === "1") {
-            oneNum.push(arr[i]);
-        }
+        if (arr[i] === "0") zeroNum.push(arr[i]);
+        else if (arr[i] === "1") oneNum.push(arr[i]);
     }
 
-    if (zeroNum.length === oneNum.length) {
-        return "1";
-    } else {
+    if (zeroNum.length === oneNum.length) return "1";
+    else
         return arr
             .sort(
                 (a, b) =>
@@ -22,7 +18,6 @@ function mostFreq(arr) {
                     arr.filter((v) => v === b).length
             )
             .pop();
-    }
 }
 
 function leastFreq(arr) {
@@ -30,15 +25,11 @@ function leastFreq(arr) {
     const oneNum = [];
 
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === "0") {
-            zeroNum.push(arr[i]);
-        } else if (arr[i] === "1") {
-            oneNum.push(arr[i]);
-        }
+        if (arr[i] === "0") zeroNum.push(arr[i]);
+        else if (arr[i] === "1") oneNum.push(arr[i]);
     }
-    if (zeroNum.length === oneNum.length) {
-        return "0";
-    } else {
+    if (zeroNum.length === oneNum.length) return "0";
+    else
         return arr
             .sort(
                 (a, b) =>
@@ -46,7 +37,6 @@ function leastFreq(arr) {
                     arr.filter((v) => v === a).length
             )
             .pop();
-    }
 }
 
 fs.readFile("input.txt", (err, data) => {
