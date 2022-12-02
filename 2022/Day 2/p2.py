@@ -1,5 +1,5 @@
 def main():
-    with open('./test.txt') as file:
+    with open('./input.txt') as file:
         lines = file.read().splitlines()
     #   1 - Rock - X  (A)          Loss - 0 Points
     #   2 - Paper - Y  (B)         Draw - 3 Points
