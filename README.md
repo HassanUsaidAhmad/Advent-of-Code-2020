@@ -8,3 +8,6 @@ My solutions to Advent of Code
 
  ## Advent of Code 2022
  - Done in **Python** Programming Language
+
+ ## Advent of Code 2023
+ - Done in **Rust** Programming Language
