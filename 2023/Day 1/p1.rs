@@ -33,6 +33,4 @@ fn main() {
     }
 
     println!("Total: {}", total);
-
-
 }
