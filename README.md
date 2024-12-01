@@ -11,3 +11,12 @@ My solutions to Advent of Code
 
  ## Advent of Code 2023
  - Done in **Rust** Programming Language
+
+ ## Advent of Code 2024
+ - Done in **Go** Programming Language
+
+#### How to run each day?
+
+```bash
+go run . -part=1 (or -part=2)
+```
